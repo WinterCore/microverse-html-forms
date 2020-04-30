@@ -11,5 +11,62 @@
 }
 
 body {
+  background-color: #ECEEF1;
+  margin: 0;
+  
+}
+nav{
+  display: grid;
+  margin-right: 30px;
+}
+/*styling the top nav*/
+.top-nav{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.top-nav .user-signin-description p:nth-child(1){
+  color: #505050;
+  font-size:12px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top-nav .user-signin-description a {
+  color: #0077c5;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 12px; 
+}
+.top-nav .user-signin-description .forgot-password{
+  margin-top: 12px;
+}
+.top-nav .user-signin-description .forgot-password p{
   margin: 0;
 }
+button.signin {
+    background: #0077c5;
+    border: 1px solid #4C4C4C;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding:0 20px 7px;
+    margin: 12px 6px 14px 6px;
+      
+ }
+ .material-icons{
+  font-size:13px;
+  margin-top:8px;
+    }
+
+/*Helper Class*/
+.bold { font-weight: bold; }
+.flex { display: flex; }
+.flex.space-between { justify-content: space-between; }
+.flex.align-center { align-items: center; }
+.flex.justify-end { justify-content: flex-end; }
+.washed-out { color: #757575; }
+.active-link{color:#0077c5}
+.font{font-family: Arial, Helvetica, sans-serif;}
