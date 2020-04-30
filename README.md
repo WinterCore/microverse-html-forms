@@ -1,4 +1,4 @@
-# Mint.com signup page clone
+# Mint.com signup page clone v0.1.0
 
 ![screenshot](./app_screenshot.png)
 
