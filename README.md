@@ -31,11 +31,11 @@ Note: You need to do `npm install` before executing the commands above.
 
 👤 **WinterCore**
 
-- Github: [@githubhandle](https://github.com/WinterCore)
+- Github: [@WinterCore](https://github.com/WinterCore)
 
 👤 **Mimipeshy**
 
-- Github: [@githubhandle](https://github.com/mimipeshy)
+- Github: [@mimipeshy](https://github.com/mimipeshy)
 
 ## 🤝 Contributing
 
