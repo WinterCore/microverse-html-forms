@@ -1,0 +1,24 @@
+{
+  "name": "microverse-html-forms",
+  "version": "0.0.1",
+  "description": "A signup form clone from mint.com",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "lintcss": "stylelint assets/css",
+    "lintcss:fix": "stylelint --fix assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WinterCore/microverse-html-forms.git"
+  },
+  "author": "WinterCore & Mimipeshy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WinterCore/microverse-html-forms/issues"
+  },
+  "homepage": "https://github.com/WinterCore/microverse-html-forms#readme",
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
