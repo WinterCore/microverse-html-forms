@@ -21,8 +21,9 @@ a:hover {
 body {
   background-color: #ECEEF1;
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
+
 nav{
   display: grid;
   margin-right: 30px;
@@ -116,16 +117,19 @@ section.signup-form-wrapper form {
   margin: 20px 0;
   border: 1px solid #c7c7c7;
   border-radius: 2px;
-  width : 440px;
+  width : 380px;
 }
 
 section.signup-form-wrapper form .form-heading {
+  font-weight: 300;
   text-align: center;
   padding: 30px 30px 0;
 }
 
 section.signup-form-wrapper .form-body {
   padding: 0 30px 30px;
+  font-weight: 300;
+  
 }
 
 section.signup-form-wrapper .form-body .terms {
@@ -134,11 +138,60 @@ section.signup-form-wrapper .form-body .terms {
   margin-top: 44px;
   padding: 0 38px;
 }
+section.signup-form-wrapper .form-body .input-extra-info{
+  font-size: 10px;
 
-section.signup-form-wrapper .form-heading h2 {
-  margin: 0;
+}
+section.signup-form-wrapper .form-body .input-group{
+  margin:0 0 30px;
+}
+section.signup-form-wrapper .form-body .input-group .tooltip{
+  background-color:#404040;
+  font-size: 12px;
+  color: white;
+  padding:6px 8px;
+  border-radius: 2px;
+  display: inline-block;
+  position: absolute;
+  left:calc(100% + 20px);
+  width: 60%;
+  top:0;
+  display: none;
+}
+section.signup-form-wrapper .form-body .input-group .tooltip-wrapper{
+  position: relative;
+  margin:8px 0 0;
 }
 
+section.signup-form-wrapper .form-body input{
+  border-radius: 4px;
+  border:1px solid #C1C5C8;
+  padding:0 8px;
+  
+}
+section.signup-form-wrapper .form-body input:focus + .tooltip{
+  display: inline-block;
+ 
+  
+}
+section.signup-form-wrapper .form-body input:focus{
+   border:1px solid #52A8EC;
+   box-shadow:0 1px 1px #FFF inset, 0 0 8px #52A8EC;
+   outline: 0;
+
+}
+section.signup-form-wrapper .form-heading h2 {
+  color:#4C4C4C;
+  font-weight: normal;
+  margin: 0;
+
+
+}
+section.signup-form-wrapper .form-body button.create-button{
+  width: 100%;
+  margin:0;
+  
+}
 section.signup-form-wrapper .form-footer {
   background: #eceef1;
   padding: 16px;
@@ -163,7 +216,7 @@ section.signup-form-wrapper form .input-with-icon img {
   height: 21px;
   position: absolute;
   right: 9px;
-  top: 7px;
+  bottom: 7px;
 }
 
 
@@ -190,4 +243,4 @@ footer a {
 .flex.column { flex-direction: column; }
 .washed-out { color: #757575; }
 .active-link{color:#0077c5}
-.font{font-family: Arial, Helvetica, sans-serif;}
+.font{font-family:  'Lato', sans-serif;}
