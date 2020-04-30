@@ -29,12 +29,7 @@ nav {
   margin-right: 30px;
 }
 
-
 /* Main */
-
-section.signup-form-wrapper {
-  margin-top: 30px;
-}
 
 section.signup-form-wrapper .logo {
   width: 118px;
@@ -183,7 +178,6 @@ footer {
   margin-top: 20px;
 }
 
-
 /* styling the top nav */
 
 .top-nav {
@@ -230,7 +224,6 @@ button.signin {
   font-size: 13px;
   margin-top: 8px;
 }
-
 
 /* Helper Class */
 .bold { font-weight: bold; }
