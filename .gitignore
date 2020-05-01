@@ -1,0 +1,14 @@
+# Environments
+
+.idea
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+.idea/
+node_modules
+package-lock.json
